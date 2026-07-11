@@ -1,0 +1,43 @@
+# 🧠 Brain MRI Deep Learning
+
+A research-oriented project exploring structural brain MRI analysis using modern deep learning and neuroimaging techniques.
+
+The project aims to build a complete and reproducible workflow for brain MRI analysis—from understanding raw MRI data to developing explainable deep learning models for Alzheimer's disease classification.
+
+---
+
+## 🎯 Objectives
+
+- Understand the structure and characteristics of brain MRI data.
+- Learn neuroimaging data formats (NIfTI).
+- Build reproducible preprocessing pipelines.
+- Develop and evaluate deep learning models for brain MRI classification.
+- Interpret model predictions using explainable AI techniques.
+- Gain practical experience with tools commonly used in neuroimaging research.
+
+---
+
+## 📂 Dataset
+
+This project uses the **OASIS-1** dataset.
+
+**Dataset:** https://sites.wustl.edu/oasisbrains/home/oasis-1/
+
+OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and subjects with Alzheimer's disease, making it a widely used benchmark dataset for neuroimaging research.
+
+> **Note:** The dataset is not included in this repository due to licensing restrictions.
+
+---
+
+## 🛠️ Technologies
+
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- NiBabel
+- Nilearn
+- Scikit-learn
+- PyTorch *(coming soon)*
+- MONAI *(coming soon)*
+- Git & GitHub
