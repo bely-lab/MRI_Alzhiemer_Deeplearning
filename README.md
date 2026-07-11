@@ -17,7 +17,7 @@ The project aims to build a complete and reproducible workflow for brain MRI ana
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 This project uses the **OASIS-1** dataset.
 
@@ -29,7 +29,7 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - NumPy
@@ -41,7 +41,7 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - PyTorch *(coming soon)*
 - MONAI *(coming soon)*
 - Git & GitHub
-## 🚀 Project Roadmap
+## Project Roadmap
 
 ### Phase 1 — MRI Exploration
 - [ ] Download OASIS-1
@@ -75,15 +75,15 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 ---
 
-## 📈 Current Status
+##  Current Status
 
-🚧 Project initialization
+ Project initialization
 
 The repository is currently being developed from scratch. Each stage of the workflow will be documented with code, explanations, and experimental results.
 
 ---
 
-## 📚 Learning Goals
+##  Learning Goals
 
 This project is designed to develop practical skills in:
 
