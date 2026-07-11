@@ -41,3 +41,57 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - PyTorch *(coming soon)*
 - MONAI *(coming soon)*
 - Git & GitHub
+## 🚀 Project Roadmap
+
+### Phase 1 — MRI Exploration
+- [ ] Download OASIS-1
+- [ ] Explore dataset structure
+- [ ] Load MRI volumes
+- [ ] Visualize MRI slices
+- [ ] Perform exploratory data analysis
+
+### Phase 2 — MRI Preprocessing
+- [ ] Intensity normalization
+- [ ] Resampling
+- [ ] Cropping
+- [ ] Dataset preparation
+
+### Phase 3 — Deep Learning
+- [ ] Build baseline model
+- [ ] Train 3D CNN
+- [ ] Evaluate performance
+- [ ] Compare models
+
+### Phase 4 — Explainability
+- [ ] Generate Grad-CAM visualizations
+- [ ] Analyze important brain regions
+- [ ] Interpret model decisions
+
+### Phase 5 — Documentation
+- [ ] Final report
+- [ ] Performance comparison
+- [ ] Project documentation
+- [ ] GitHub release
+
+---
+
+## 📈 Current Status
+
+🚧 Project initialization
+
+The repository is currently being developed from scratch. Each stage of the workflow will be documented with code, explanations, and experimental results.
+
+---
+
+## 📚 Learning Goals
+
+This project is designed to develop practical skills in:
+
+- Medical image analysis
+- Brain MRI preprocessing
+- Neuroimaging workflows
+- Deep learning for healthcare
+- Explainable AI
+- Reproducible research
+
+---
