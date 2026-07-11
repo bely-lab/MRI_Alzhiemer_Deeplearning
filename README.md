@@ -1,4 +1,4 @@
-# 🧠 Brain MRI Deep Learning
+# Brain MRI Deep Learning
 
 A research-oriented project exploring structural brain MRI analysis using modern deep learning and neuroimaging techniques.
 
