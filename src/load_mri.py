@@ -15,7 +15,6 @@ import numpy as np
 # Path to one MRI scan
 # ==========================
 
-# Change this path if your dataset is somewhere else.
 MRI_PATH = Path(
     "data/raw/disc1/OAS1_0001_MR1/RAW/OAS1_0001_MR1_mpr-1_anon.hdr"
 )
