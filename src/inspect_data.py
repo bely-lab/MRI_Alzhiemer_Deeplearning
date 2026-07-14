@@ -18,7 +18,7 @@ import pandas as pd
 # Dataset location
 # ==========================================================
 
-DATASET_PATH = Path("data/raw/OASIS")
+DATASET_PATH = Path("data/raw/disc1")
 
 
 # ==========================================================
