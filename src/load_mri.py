@@ -26,7 +26,8 @@ image = nib.load(MRI_PATH)
 # Convert the MRI into a NumPy array.
 # The MRI is stored as a 3D matrix (volume).
 data = image.get_fdata()
-
+data = np.squeeze(data)
+print(data.shape)
 # ==========================
 # Print image information
 # ==========================
