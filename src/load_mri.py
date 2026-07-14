@@ -1,6 +1,3 @@
-"""
-load_mri.py
-"""
 
 # ==========================
 # Import libraries
