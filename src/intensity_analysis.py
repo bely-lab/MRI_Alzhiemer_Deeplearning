@@ -93,7 +93,13 @@ plt.hist(
     brain_voxels,
     bins=100,
 )
+brain_voxels = data[data > 0]
 
+print("\nBrain Only Statistics")
+print(f"Min: {brain_voxels.min():.2f}")
+print(f"Max: {brain_voxels.max():.2f}")
+print(f"Mean: {brain_voxels.mean():.2f}")
+print(f"Median: {np.median(brain_voxels):.2f}")
 plt.title("MRI Intensity Distribution (Brain Only)")
 plt.xlabel("Intensity")
 plt.ylabel("Number of Voxels")
