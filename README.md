@@ -43,18 +43,18 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - Git & GitHub
 ## Project Roadmap
 
-### Phase 1 — MRI Exploration
-- [ ] Download OASIS-1
-- [ ] Explore dataset structure
-- [ ] Load MRI volumes
-- [ ] Visualize MRI slices
-- [ ] Perform exploratory data analysis
+## Phase 1 — MRI Exploration
 
-### Phase 2 — MRI Preprocessing
-- [ ] Intensity normalization
-- [ ] Resampling
-- [ ] Cropping
-- [ ] Dataset preparation
+- [x] Load MRI volumes
+- [x] Visualize MRI slices
+- [x] Inspect dataset
+- [x] Analyze intensity distributions
+
+## Phase 2 — Preprocessing
+
+- [x] Crop empty background
+- [ ] Normalize MRI intensities
+- [ ] Process full dataset
 
 ### Phase 3 — Deep Learning
 - [ ] Build baseline model
