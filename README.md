@@ -56,23 +56,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - [ ] Normalize MRI intensities
 - [ ] Process full dataset
 
-### Phase 3 — Deep Learning
-- [ ] Build baseline model
-- [ ] Train 3D CNN
-- [ ] Evaluate performance
-- [ ] Compare models
-
-### Phase 4 — Explainability
-- [ ] Generate Grad-CAM visualizations
-- [ ] Analyze important brain regions
-- [ ] Interpret model decisions
-
-### Phase 5 — Documentation
-- [ ] Final report
-- [ ] Performance comparison
-- [ ] Project documentation
-- [ ] GitHub release
-
 ---
 
 ##  Current Status
