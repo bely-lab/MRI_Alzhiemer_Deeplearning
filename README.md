@@ -67,5 +67,4 @@ This project is designed to develop practical skills in:
 - Deep learning for healthcare
 - Explainable AI
 - Reproducible research
-
 ---
