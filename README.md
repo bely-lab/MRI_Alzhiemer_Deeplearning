@@ -58,13 +58,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 ---
 
-##  Current Status
-
- Project initialization
-
-The repository is currently being developed from scratch. Each stage of the workflow will be documented with code, explanations, and experimental results.
-
----
 
 ##  Learning Goals
 
