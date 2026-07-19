@@ -11,8 +11,6 @@ Steps:
 3. Crop background
 4. Normalize intensities (Z-score)
 5. Save processed MRI
-
-Author: Belaynesh Kndie
 """
 
 from pathlib import Path
