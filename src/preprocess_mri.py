@@ -24,7 +24,7 @@ INPUT_PATH = Path(
 )
 
 OUTPUT_PATH = Path(
-    "data/processed/OAS1_0001_preprocessed.nii.gz"
+    "processed/OAS1_0001_preprocessed.nii.gz"
 )
 
 
