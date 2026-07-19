@@ -1,10 +1,6 @@
 """
 preprocess_mri.py
 
-Purpose:
---------
-Preprocess a single MRI scan.
-
 Steps:
 1. Load MRI
 2. Remove singleton dimension
