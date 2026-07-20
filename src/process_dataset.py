@@ -1,10 +1,6 @@
 """
 process_dataset.py
 
-Purpose:
---------
-Preprocess all MRI scans in the OASIS dataset.
-
 Pipeline:
 1. Load MRI
 2. Remove singleton dimension
