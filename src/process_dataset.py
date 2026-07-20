@@ -7,8 +7,6 @@ Pipeline:
 3. Crop background
 4. Z-score normalization
 5. Save processed MRI
-
-Author: Belaynesh Kndie
 """
 
 from pathlib import Path
