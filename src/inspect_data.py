@@ -5,8 +5,6 @@ Purpose:
 --------
 Inspect all MRI subjects in the OASIS dataset and collect
 basic information about the scans.
-
-Author: Belaynesh Kndie
 """
 
 from pathlib import Path
