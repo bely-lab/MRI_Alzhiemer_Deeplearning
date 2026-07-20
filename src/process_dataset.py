@@ -20,7 +20,7 @@ import numpy as np
 # Paths
 # ==========================================================
 
-DATASET_DIR = Path("data/raw/OASIS")
+DATASET_DIR = Path("data/raw/disc1")
 OUTPUT_DIR = Path("data/processed")
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
