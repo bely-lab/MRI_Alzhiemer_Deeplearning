@@ -12,10 +12,6 @@ import nibabel as nib
 import pandas as pd
 
 
-# ==========================================================
-# Dataset location
-# ==========================================================
-
 DATASET_PATH = Path("data/raw/disc1")
 
 
