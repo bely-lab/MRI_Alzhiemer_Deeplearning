@@ -2,7 +2,7 @@
 
 A research-oriented project exploring structural brain MRI analysis using modern deep learning and neuroimaging techniques.
 
-The project aims to build a complete and reproducible workflow for brain MRI analysis—from understanding raw MRI data to developing explainable deep learning models for Alzheimer's disease classification.
+The project aims to build a complete and reproducible workflow for brain MRI analysis, from understanding raw MRI data to developing explainable deep learning models for Alzheimer's disease classification.
 
 ---
 
