@@ -4,8 +4,6 @@ A research-oriented project exploring structural brain MRI analysis using modern
 
 The project aims to build a complete and reproducible workflow for brain MRI analysis, from understanding raw MRI data to developing explainable deep learning models for Alzheimer's disease classification.
 
----
-
 ## Objectives
 
 - Understand the structure and characteristics of brain MRI data.
@@ -14,8 +12,6 @@ The project aims to build a complete and reproducible workflow for brain MRI ana
 - Develop and evaluate deep learning models for brain MRI classification.
 - Interpret model predictions using explainable AI techniques.
 - Gain practical experience with tools commonly used in neuroimaging research.
-
----
 
 ## Dataset
 
