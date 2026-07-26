@@ -23,7 +23,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 > **Note:** The dataset is not included in this repository due to licensing restrictions.
 
----
 
 ## Technologies
 
