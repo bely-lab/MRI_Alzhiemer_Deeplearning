@@ -6,7 +6,7 @@ The project aims to build a complete and reproducible workflow for brain MRI ana
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Understand the structure and characteristics of brain MRI data.
 - Learn neuroimaging data formats (NIfTI).
