@@ -1,6 +1,6 @@
 from torch.utils.data import DataLoader
 
-from data import BrainMRIDataset
+from data import data 
 
 
 dataset = BrainMRIDataset("data/processed")
