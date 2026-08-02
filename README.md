@@ -40,10 +40,10 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 ## Phase 1 — MRI Exploration
 
-- [x] Load MRI volumes
-- [x] Visualize MRI slices
-- [x] Inspect dataset
-- [x] Analyze intensity distributions
+- Load MRI volumes
+- Visualize MRI slices
+- Inspect dataset
+- Analyze intensity distributions
 
 ## Phase 2 — Preprocessing
 
