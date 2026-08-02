@@ -47,9 +47,9 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 ## Phase 2 — Preprocessing
 
-- [x] Crop empty background
-- [x] Normalize MRI intensities
-- [x] Process full dataset
+- Crop empty background
+- Normalize MRI intensities
+- Process full dataset
 ##  Learning Goals
 
 This project is designed to develop practical skills in:
