@@ -51,7 +51,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - Normalize MRI intensities
 - Process full dataset
 ##  Learning Goals
-
 This project is designed to develop practical skills in:
 
 - Medical image analysis
