@@ -46,7 +46,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - Analyze intensity distributions
 
 ## Phase 2 — Preprocessing
-
 - Crop empty background
 - Normalize MRI intensities
 - Process full dataset
