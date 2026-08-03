@@ -23,7 +23,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 
 
 ## Technologies
-
 - Python
 - NumPy
 - Pandas
@@ -35,7 +34,6 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - MONAI *(coming soon)*
 - Git & GitHub
 ## Project Roadmap
-
 ## Phase 1 — MRI Exploration
 
 - Load MRI volumes
