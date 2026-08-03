@@ -19,7 +19,6 @@ This project uses the **OASIS-1** dataset.
 
 OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and subjects with Alzheimer's disease, making it a widely used benchmark dataset for neuroimaging research.
 
-
 ## Technologies
 - Python
 - NumPy
