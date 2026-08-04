@@ -2,8 +2,6 @@
 model.py
 
 A simple 3D CNN for brain MRI.
-
-Author: Belaynesh Kndie
 """
 
 import torch
