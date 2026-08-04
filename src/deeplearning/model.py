@@ -2,6 +2,7 @@
 model.py
 
 A simple 3D CNN for brain MRI.
+
 """
 
 import torch
@@ -75,7 +76,7 @@ class BrainAgeCNN(nn.Module):
 if __name__ == "__main__":
 
     model = BrainAgeCNN()
-s
+
     x = torch.randn(2,1,212,210,128)
 
     y = model(x)
