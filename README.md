@@ -26,10 +26,7 @@ OASIS-1 contains T1-weighted structural MRI scans from healthy individuals and s
 - Matplotlib
 - NiBabel
 - Nilearn
-- Scikit-learn
-- PyTorch *(coming soon)*
-- MONAI *(coming soon)*
-- Git & GitHub
+
 ## Project Roadmap
 ## Phase 1 — MRI Exploration
 
