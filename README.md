@@ -13,7 +13,7 @@ The project aims to build a complete and reproducible workflow for brain MRI ana
 - Interpret model predictions using explainable AI techniques.
 - Gain practical experience with tools commonly used in neuroimaging research.
 ## Dataset
-This project uses the **OASIS-1** dataset.
+This project uses the OASIS-1 dataset.
 
 **Dataset:** https://sites.wustl.edu/oasisbrains/home/oasis-1/
 
