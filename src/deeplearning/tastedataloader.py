@@ -1,7 +1,5 @@
 """
 test_dataloader.py
-
-Test loading MRI batches using a PyTorch DataLoader.
 """
 
 from torch.utils.data import DataLoader
