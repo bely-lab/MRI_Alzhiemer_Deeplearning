@@ -11,7 +11,18 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 
+def resize_volume(volume, target_size=(128, 128, 128)):
+    """
+    Resize a 3D MRI volume to a fixed size.
+    """
 
+    factors = (
+        target_size[0] / volume.shape[0],
+        target_size[1] / volume.shape[1],
+        target_size[2] / volume.shape[2],
+    )
+
+    return zoom(volume, zoom=factors, order=1)
 class BrainMRIDataset(Dataset):
 
     def __init__(self, data_dir):
