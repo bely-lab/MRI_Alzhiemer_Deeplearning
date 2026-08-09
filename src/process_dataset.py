@@ -13,11 +13,6 @@ import time
 import nibabel as nib
 import numpy as np
 
-
-# ==========================================================
-# Paths
-# ==========================================================
-
 DATASET_DIR = Path("data/raw/disc1")
 OUTPUT_DIR = Path("data/processed")
 
