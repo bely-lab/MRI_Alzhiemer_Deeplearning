@@ -1,5 +1,4 @@
 """
-process_dataset.py
 
 Pipeline:
 1. Load MRI
