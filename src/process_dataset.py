@@ -71,11 +71,6 @@ def save_mri(data, output_path):
 
     nib.save(image, str(output_path))
 
-
-# ==========================================================
-# Main
-# ==========================================================
-
 start_time = time.time()
 
 processed_count = 0
