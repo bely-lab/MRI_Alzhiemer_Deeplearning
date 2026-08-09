@@ -1,6 +1,4 @@
 """
-preprocess_mri.py
-
 Steps:
 1. Load MRI
 2. Remove singleton dimension
