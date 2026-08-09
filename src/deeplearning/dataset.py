@@ -22,6 +22,7 @@ def resize_volume(volume, target_size=(128, 128, 128)):
         target_size[2] / volume.shape[2],
     )
 
+
     return zoom(volume, zoom=factors, order=1)
 class BrainMRIDataset(Dataset):
 
