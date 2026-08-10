@@ -1,7 +1,8 @@
 """
 dataset.py
 
-PyTorch Dataset for loading preprocessed MRI scans.
+PyTorch Dataset for loading and resizing
+preprocessed 3D brain MRI volumes.
 """
 
 from pathlib import Path
@@ -9,12 +10,15 @@ from pathlib import Path
 import nibabel as nib
 import numpy as np
 import torch
+from scipy.ndimage import zoom
 from torch.utils.data import Dataset
 
-def resize_volume(volume, target_size=(128, 128, 128)):
-    """
-    Resize a 3D MRI volume to a fixed size.
-    """
+
+TARGET_SIZE = (128, 128, 128)
+
+
+def resize_volume(volume, target_size=TARGET_SIZE):
+    """Resize a 3D MRI volume to a fixed size."""
 
     factors = (
         target_size[0] / volume.shape[0],
@@ -22,13 +26,22 @@ def resize_volume(volume, target_size=(128, 128, 128)):
         target_size[2] / volume.shape[2],
     )
 
+    resized = zoom(
+        volume,
+        zoom=factors,
+        order=1
+    )
 
-    return zoom(volume, zoom=factors, order=1)
+    return resized
+
+
 class BrainMRIDataset(Dataset):
 
     def __init__(self, data_dir):
 
-        self.files = sorted(Path(data_dir).glob("*.nii.gz"))
+        self.files = sorted(
+            Path(data_dir).glob("OAS1_*_MR1.nii.gz")
+        )
 
     def __len__(self):
 
@@ -42,11 +55,18 @@ class BrainMRIDataset(Dataset):
 
         image = image.astype(np.float32)
 
+        # Resize to the same dimensions
+        image = resize_volume(image)
+
+        # Add channel dimension
         image = np.expand_dims(image, axis=0)
 
         image = torch.from_numpy(image)
 
-        subject = file.stem.replace(".nii", "")
+        subject = file.name.replace(
+            ".nii.gz",
+            ""
+        )
 
         return image, subject
 
