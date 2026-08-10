@@ -22,9 +22,6 @@ OUTPUT_PATH = Path(
 )
 
 
-# ==========================================================
-# Helper Functions
-# ==========================================================
 
 def load_mri(path):
     """Load MRI and return image + data."""
