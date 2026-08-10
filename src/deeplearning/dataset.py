@@ -1,6 +1,4 @@
 """
-dataset.py
-
 PyTorch Dataset for loading and resizing
 preprocessed 3D brain MRI volumes.
 """
