@@ -5,7 +5,6 @@ Purpose:
 --------
 Remove empty background from a brain MRI by finding the
 smallest bounding box containing all non-zero voxels.
-Author: Belaynesh Kndie
 """
 
 from pathlib import Path
