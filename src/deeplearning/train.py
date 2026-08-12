@@ -1,7 +1,6 @@
 """
 train.py
 
-Test the complete MRI deep-learning pipeline:
 MRI -> Dataset -> DataLoader -> 3D CNN -> Prediction
 """
 
