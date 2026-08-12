@@ -1,5 +1,5 @@
 """
-PyTorch Dataset for loading and resizing
+PyTorch Dataset - loading and resizing
 preprocessed 3D brain MRI volumes.
 """
 
