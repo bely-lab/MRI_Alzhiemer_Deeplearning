@@ -1,6 +1,5 @@
 """
 train.py
-
 MRI -> Dataset -> DataLoader -> 3D CNN -> Prediction
 """
 
