@@ -1,6 +1,5 @@
 """
 crop_mri.py
-
 Purpose:
 --------
 Remove empty background from a brain MRI by finding the
