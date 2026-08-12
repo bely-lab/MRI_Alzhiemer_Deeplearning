@@ -1,8 +1,8 @@
 """
 train.py
 
-Test the complete deep learning pipeline:
-Dataset -> DataLoader -> Model -> Forward Pass
+Test the complete MRI deep-learning pipeline:
+MRI -> Dataset -> DataLoader -> 3D CNN -> Prediction
 """
 
 import torch
@@ -17,9 +17,7 @@ def main():
     # -----------------------------
     # Device
     # -----------------------------
-    device = torch.device(
-        "cuda" if torch.cuda.is_available() else "cpu"
-    )
+    device = torch.device("cpu")
 
     print(f"Using device: {device}")
 
@@ -28,39 +26,45 @@ def main():
     # -----------------------------
     dataset = BrainMRIDataset("data/processed")
 
+    print(f"Dataset size: {len(dataset)}")
+
+    # -----------------------------
+    # DataLoader
+    # -----------------------------
     dataloader = DataLoader(
         dataset,
         batch_size=2,
         shuffle=True
     )
 
-    print(f"Dataset size: {len(dataset)}")
-
     # -----------------------------
     # Model
     # -----------------------------
     model = BrainAgeCNN()
-
     model.to(device)
 
-    print(model)
-
     # -----------------------------
-    # One Forward Pass
+    # Load one batch
     # -----------------------------
     images, subjects = next(iter(dataloader))
 
     images = images.to(device)
 
+    # -----------------------------
+    # Forward pass
+    # -----------------------------
     predictions = model(images)
 
-    print("\nSubjects:")
+    print("\nBatch information")
+    print("-" * 40)
+
+    print("Subjects:")
     print(list(subjects))
 
     print("\nInput shape:")
     print(images.shape)
 
-    print("\nPrediction shape:")
+    print("\nOutput shape:")
     print(predictions.shape)
 
     print("\nPredictions:")
@@ -69,6 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-    
